@@ -12,7 +12,7 @@
 <body>
     <h1> PHP Variables, Arrays and operators </h1>
     <?php
-        $marks[] = array(85, 85, 95);
+        $marks = array(85, 85, 95);
         $marks[1] = 90; 
 
         $sum = array_sum($marks);
